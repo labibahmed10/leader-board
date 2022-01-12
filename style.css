@@ -149,12 +149,10 @@ hr {
     width: 100%;
   }
   .section-title {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
   }
-  .top-players {
-    padding: 0;
-  }
+
   .players {
     grid-template-columns: 1fr;
     grid-row-gap: 12px;
@@ -163,12 +161,11 @@ hr {
     flex-direction: column;
   }
   .player img {
-    width: 28px;
-    height: 28px;
-    margin-right: 8px;
+    width: 40px;
+    height: 40px;
   }
   .player-name {
-    font-size: 13px;
+    font-size: 16px;
   }
   /* top-players der design ends here */
 
@@ -183,15 +180,15 @@ hr {
     flex-direction: column;
   }
   .detail img {
-    width: auto;
+    width: 320px;
+    height: 180px;
     margin-right: 0;
   }
   .detail-text h3 {
-    font-size: 15px;
+    font-size: 18px;
   }
   .author {
-    color: #9f9f9f;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   /* Latest course section design starts  */
@@ -207,18 +204,17 @@ hr {
 
   .course-card {
     width: auto;
-    height: auto;
     margin-bottom: 20px;
   }
   .card-details p {
-    font-size: 10px;
+    font-size: 13px;
   }
   .card-details h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .star-part .fas {
-    font-size: 9px;
+    font-size: 12px;
   }
   .duration-part {
     font-size: 12px;
